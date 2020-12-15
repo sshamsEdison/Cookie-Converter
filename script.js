@@ -1,3 +1,7 @@
+$( document ).ready(function() {
+
+
+
 // an oreo cookie is 9 mm
 var oreo = 9;
 
@@ -14,5 +18,5 @@ $("button").click(function() {
     $("#oreo-height").text("You are " + oreos + " oreos tall!");
 });
 
-
+});
 
